@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&display=swap");
+body {
+  background-color: #091329;
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.233);
+  font-size: 3em;
+}
+
+h1:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.562);
+}
+
+.colorBlue {
+  color: #00ff55;
+}
+
+.colorRed {
+  color: #ca1d1d;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
+
+canvas {
+  background: radial-gradient(#ffffff, transparent);
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100vw;
+  padding: 1.5em 0em;
+}
+/*# sourceMappingURL=style.css.map */
